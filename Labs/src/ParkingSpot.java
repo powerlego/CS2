@@ -1,12 +1,16 @@
 
 
 public class ParkingSpot {
+	
 	/** used in the string representation of the lot to show an occupied spot */
 	private static final String OCCUPIED_STR = "*";
+	
 	/** The unique number for this spot */
 	private int spot;
+	
 	/** The spot type */
 	private Permit.Type type;
+	
 	/** the Vehicle object parked in the spot (null if no vehicle) */
 	private Vehicle vehicle;
 
@@ -88,6 +92,7 @@ public class ParkingSpot {
 	
 	/**
 	 * Verify a parking spot has the correct spot id, type and vehicle.
+	 * 
 	 * @param spotVar the name of the variable
 	 * @param s the ParkingSpot object to check
 	 * @param spot the expected spot id
@@ -115,6 +120,7 @@ public class ParkingSpot {
 	
 	/**
 	 * The main test function for the ParkingSpot class.
+	 * 
 	 * @param args command line arguments (unused)
 	 */
 	public static void main(String[] args) {

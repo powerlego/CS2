@@ -115,7 +115,11 @@ public class ParkingOfficer {
 		}
 	}
 	
-	
+	/**
+	 * The main test function for the ParkingOfficer class.
+	 * 
+	 * @param args command line arguments (unused)
+	 */
 	public static void main(String[] args) {
 		
 		//Creates 5 new vehicles

@@ -186,7 +186,11 @@ public class ParkingLot {
 		return str;
 	}
 	
-
+	/**
+	 * The main test function for the ParkingLot class.
+	 * 
+	 * @param args command line arguments (unused)
+	 */
 	public static void main(String [] args) {
 		//Creates a new vehicle with plate 10
 		Vehicle v1 = new Vehicle(10);
